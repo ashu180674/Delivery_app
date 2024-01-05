@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "delivery",
+    "slug": "delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/delivery.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.arjun6261.delivery"
+    },
+    "web": {
+      "favicon": "./assets/delivery.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d795eb67-63b9-40a7-902f-9be8eb38f7e5"
+      }
+    }
+  }
+}
